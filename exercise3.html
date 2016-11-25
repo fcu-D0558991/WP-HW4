@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+	$("#B1").click(function(){
+		$("div").animate({left:'250px'});
+		  });
+	$("#B2").click(function(){
+		$("div").fadeOut("slow");
+		 });
+	$("#B3").click(function(){
+		$("div").fadeIn("slow");
+		});
+	$("#flip").click(function(){
+		$(div).slideDown(5000);
+		})
+	});
+</script>
+</head>
+<body>
+<div><img src="C:\Users\WDJ\Desktop\mid_32372184b555237.jpg" width="250"height="150"></div><br><br>
+<button id="B1">Turn right</button>
+<button id="B2">FadeOut</button>
+<button id="B3">Fadein</button>
+<button id="flip">Flip</button>
+</body>
+</html>
+
